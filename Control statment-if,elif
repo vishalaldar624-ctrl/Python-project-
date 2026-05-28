@@ -1,1 +1,18 @@
-
+mathes=int(input("enter mathes  marks:"))
+biology=int(input("enter biology marks:"))
+chemistry=int(input("enter chemistry marks:"))
+  
+sum=mathes+biology+chemistry
+print("percentage")
+if sum>280:
+  print("grade:A++")
+elif sum>230:
+  print("grade:A")
+elif sum>200:
+   print("grade:B")
+elif sum>150:
+    print("grade:C")
+elif sum<150:
+    print("fail")
+else:
+  print("invalid maraks")
