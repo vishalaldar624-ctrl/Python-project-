@@ -1,1 +1,14 @@
 
+
+username input("Enter your username: ") 2
+
+password-input("Enter your password: ") 2
+
+if username="aadi" and password="1234": 4
+
+    print("Login Successful") 
+
+
+else:
+
+    print("Invalid username or Password")
